@@ -28,6 +28,7 @@ navigator.mediaDevices.getUserMedia({
 
     socket.on('user-connected', userId => {
         //connectToNewUser(userId, stream)
+        console.log("Numero de PEER1: "+userId)
         setTimeout(connectToNewUser,1000,userId,stream)
     })
 })
