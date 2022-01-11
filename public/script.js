@@ -38,6 +38,7 @@ socket.on('user-disconnected', userId => {
 })
 
 myPeer.on('open', id => {
+    console.log("Numero de PEER5: "+userId)
     socket.emit('join-room', ROOM_ID, id)
 })
 
