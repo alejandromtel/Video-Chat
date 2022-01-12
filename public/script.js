@@ -5,9 +5,13 @@ const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
     /*host: '/',
     port: '3001'*/
-    secure: true, 
+    /*secure: true, 
                 host: 'peertv.herokuapp.com', 
-                port: 443
+                port: 443*/
+                host: 'peertv.herokuapp.com',
+                port: 443,
+                path: '/myapp',
+                secure: true
 })
 
 const myVideo = document.createElement('video')
