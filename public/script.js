@@ -9,7 +9,7 @@ const myPeer = new Peer(undefined, {
                 host: 'peertv.herokuapp.com', 
                 port: 443*/
                 host: 'peertv.herokuapp.com',
-                port: 9000,
+                port: 9001,
                 path: '/myapp',
                 secure: true
 })
