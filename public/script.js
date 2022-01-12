@@ -6,7 +6,7 @@ const myPeer = new Peer(undefined, {
     /*host: '/',
     port: '3001'*/
     secure: true, 
-                host: 'speakfast.herokuapp.com', 
+                host: 'peertv.herokuapp.com', 
                 port: 443
 })
 
